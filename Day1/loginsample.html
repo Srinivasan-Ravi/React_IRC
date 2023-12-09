@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 style="font-style:italic; font-weight: bolder; text-align: center; color: rgb(255, 254, 252);">LOGIN PAGE</h3>
+    <form class="container shadow" onsubmit="register()">
+        <input type="text" id="user" placeholder="User Name"required id="" class="auth-input">
+        <!-- <input type="number" id="age" placeholder="Age" id="" required class="auth-input"> -->
+        <!-- <label>Gender: </label>
+        <input type="radio"  id="" name="gender"><label>Male</label>
+        <input type="radio"  id="" name="gender"><label>Female</label> -->
+        <!-- <input type="date" id="dob" placeholder="DOB" id=""class="auth-input"> -->
+        <input type="email" id="mail" placeholder="Enter your email id" id="" required class="auth-input">
+        <input type="password" id="pwd" placeholder="Enter your new password" required id="" class="auth-input">
+        <input type="password" id="pwd1" placeholder="Confirm password" required id="" class="auth-input">
+        <!-- <input type="number" id="num" placeholder="Mobile Number" id="" required class="auth-input"> -->
+        <input type="submit" value="LOGIN" class="auth-btn">
+</form>
+</body>
+<script>
+    function register()
+    {
+        let x1=document.getElementById("user").value;
+        let x4=document.getElementById("mail").value;
+        let x5=document.getElementById("pwd").value;
+        let x6=document.getElementById("pwd1").value;
+        if(confirm("Are you sure want to LOGIN??"))
+        {
+            if(x5==x6){
+                alert("You've Successfully Logged in"+x1+" !! \n"+x4+" \n"+x5+" \n"+x6+" \n");
+            }
+            else{
+                alert("Password Exception: Password doesn't match");
+            }
+        }
+        else{
+            alert("Failed to Login Up :( Try Again");
+        }
+    }
+</script>
+</html>
