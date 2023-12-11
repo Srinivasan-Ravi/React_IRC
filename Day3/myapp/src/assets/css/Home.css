@@ -1,0 +1,24 @@
+.home{
+    background-color:rgb(27, 118, 118)
+}
+.main{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body{
+    margin: 0;
+    background-image: url("https://indiacityblog.com/wp-content/uploads/2020/03/185289.jpg");
+    background-repeat: no-repeat;
+    /* height:100vh; */
+    /* width:100vw; */
+    background-size: cover;
+}
+.caption
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lucida Console", Courier, monospace;
+    border-radius: 50px;
+}
