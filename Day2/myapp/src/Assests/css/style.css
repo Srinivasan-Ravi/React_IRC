@@ -15,6 +15,10 @@ background: linear-gradient(to right, #480048, #C04848); /* W3C, IE 10+/ Edge, F
     background-repeat: no-repeat;
     background-size: cover;
 }
+.nav
+{
+    
+}
 .loginn
 {
     display: flex;

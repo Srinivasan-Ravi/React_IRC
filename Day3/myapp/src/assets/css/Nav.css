@@ -1,0 +1,13 @@
+.navbar{
+    height: 3rem;
+    width:100vw;
+    background-color:hotpink;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    position:sticky;
+    font-weight: bolder;
+    flex-direction: row;
+    /* top:0; */
+    /* left:0; */
+}

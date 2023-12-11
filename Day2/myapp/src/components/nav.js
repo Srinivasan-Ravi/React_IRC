@@ -1,7 +1,12 @@
+//Normal Function
+// function Nav(){}
+
+//Arrow Function
+//const Nav=()=>{}
 function Nav()
 {
+    <div className="nav">
     return (
-        <div>
          <ul>
         <li>Home</li>
         <li>Login</li>
@@ -9,7 +14,7 @@ function Nav()
         <li>Services</li>
         <li>Contact</li>
     </ul>
-</div>
    )
+</div>
 }
 export default Nav
