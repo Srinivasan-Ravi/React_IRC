@@ -3,7 +3,6 @@ import Nav from './components/nav'
 function App(){
    return(
     <div>
-        <Nav/>
         <h3 className='loginn'>LOGIN PAGE</h3>
     <form className="container shadow">
         <input type="text" id="user" placeholder="User Name"required className="auth-input"/>
