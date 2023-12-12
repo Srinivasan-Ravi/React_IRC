@@ -1,22 +1,42 @@
-import Nav from "./Components/Nav";
-import './assets/css/Nav.css';
-import Footer  from "./Components/Footer";
+// import Nav from "./Components/Nav";
+// import './assets/css/Nav.css';
+// import Footer  from "./Components/Footer";
+// import Home from './Components/Home';
+// import './assets/css/Home.css';
+// function App(){
+  //   return(
+    //     <body>
+//     <div>
+
+//     <p className='main'>
+//     Welcome to your own World🌍
+//     </p>
+//     <Home/>
+//       <Nav/>
+//     </div>
+//     <Footer/>
+//     </body>
+//   )
+// }
+// export default App
+
+// src/App.js
+import React from 'react';
+import Navbar from './Components/Nav'
 import Home from './Components/Home';
-import './assets/css/Home.css';
+import Footer from './Components/Footer'
 import './assets/css/Footer.css';
-function App(){
-  return(
-    <body>
+import './assets/css/Nav.css';
+import './assets/css/Home.css'
+
+const App = () => {
+  return (
     <div>
-      
-    <p className='main'>
-    Welcome to your own World🌍
-    </p>
-    <Home/>
-      <Nav/>
+      <Navbar />
+      <Home />
+      <Footer/>
     </div>
-    <Footer/>
-    </body>
-  )
-}
-export default App
+  );
+};
+
+export default App;
