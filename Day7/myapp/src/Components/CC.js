@@ -12,7 +12,7 @@ class CC extends Component{
             <>
 <div>
       <button onClick={notify}>A Toast please🍞!</button>
-      <Toaster />
+      <Toaster position='top-right'/>
     </div>
             </>
         )

@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    background-color: #000;
+    color:#fff;
+
+}
+.theme-color{
+    color:blueviolet;
+}
+.theme-bg{
+    background-color: blueviolet;
+}
+.hv-10{
+    height: 10vh;
+}
+.hv-20{
+    height: 20vh;
+}
+.hv-80{
+    height: 10vh;
+}
+.hv-100{
+    height: 100vh;
+}
+.hv-90{
+    height: 90vh;
+}
+.hv-95{
+    height: 95vh;
+}
+.wv-10{
+    width:10vw;
+}
+.wv-100{
+    width:100vw;
+}
+.wv-20{
+    width:20vw;
+}
+.wv-80{
+    width:80vw;
+}
+.wv-90{
+    width:90vw;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-start{
+    justify-content: start;
+}
+.justify-end{
+    justify-content: end;
+}
