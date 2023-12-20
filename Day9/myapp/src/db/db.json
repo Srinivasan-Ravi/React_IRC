@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "username": "Hey Prabhu",
+      "password": 1234
+    },
+    {
+      "id": 3,
+      "username": "Hey HariRam",
+      "password": 12345
+    },
+    {
+      "username": "Hare Ram",
+      "password": "123456",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "pid": 1,
+      "productname": "Apple🍎"
+    },
+    {
+      "pid": 2,
+      "productname": "Orange🍊"
+    }
+  ]
+}
