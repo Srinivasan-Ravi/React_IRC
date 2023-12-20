@@ -1,5 +1,5 @@
 import './Assests/css/style.css'
-import Nav from './components/nav'
+import Nav from './components/Nav'
 function App(){
    return(
     <div>
