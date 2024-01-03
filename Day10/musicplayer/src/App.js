@@ -1,5 +1,3 @@
-// App.js
-
 import React, { useState } from 'react';
 import Player from './Components/Player';
 import Dashboard from './Components/Dashboard';
@@ -29,25 +27,25 @@ const App = () => {
     <div className="App">
       <h1 className='mp'>RhythMix🎵</h1>
     <div className='hello'>
-      <div class="card">
-<div class="image" style={{backgroundImage:'url(https://i.ytimg.com/vi/bEnm48HSCpU/maxresdefault.jpg)'}}><span class="text">Heat Waves</span></div>
-  <span class="title">Composer(s):</span>
-  <span class="price">Glass Animals</span>
+      <div className="card">
+<div className="image" style={{backgroundImage:'url(https://i.ytimg.com/vi/bEnm48HSCpU/maxresdefault.jpg)',borderRadius:'10px'}}><span className="text">Heat Waves</span></div>
+  <span className="title">Composer(s):</span>
+  <span className="price">Glass Animals</span>
 </div>
-      <div class="card">
-<div class="image" style={{backgroundImage:'url(https://i.ytimg.com/vi/bEnm48HSCpU/maxresdefault.jpg)'}}><span class="text">Night Changes</span></div>
-  <span class="title">Composer(s):</span>
-  <span class="price">One Direction</span>
+      <div className="card">
+<div className="image" style={{backgroundImage:'url(https://i.ytimg.com/vi/bEnm48HSCpU/maxresdefault.jpg)',borderRadius:'10px'}}><span className="text">Night Changes</span></div>
+  <span className="title">Composer(s):</span>
+  <span className="price">One Direction</span>
 </div>
-      <div class="card">
-<div class="image"  style={{backgroundImage:'url(https://i.ytimg.com/vi/bEnm48HSCpU/maxresdefault.jpg)'}}><span class="text">Perfect</span></div>
-  <span class="title">Composer(s):</span>
-  <span class="price">Ed-Sheeran</span>
+      <div className="card">
+<div className="image"  style={{backgroundImage:'url(https://i.ytimg.com/vi/bEnm48HSCpU/maxresdefault.jpg)',borderRadius:'10px'}}><span className="text">Perfect</span></div>
+  <span className="title">Composer(s):</span>
+  <span className="price">Ed-Sheeran</span>
 </div>
-      <div class="card">
-<div class="image"  style={{backgroundImage:'url(https://i.ytimg.com/vi/bEnm48HSCpU/maxresdefault.jpg)'}}><span class="text">Galway Girl</span></div>
-  <span class="title">Composer(s):</span>
-  <span class="price">Ed-Sheeran</span>
+      <div className="card">
+<div className="image"  style={{backgroundImage:'url(https://i.ytimg.com/vi/bEnm48HSCpU/maxresdefault.jpg)',borderRadius:'10px'}}><span className="text">Galway Girl</span></div>
+  <span className="title">Composer(s):</span>
+  <span className="price">Ed-Sheeran</span>
 </div>
 </div>
       <Player

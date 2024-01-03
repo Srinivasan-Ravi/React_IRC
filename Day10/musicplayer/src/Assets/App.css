@@ -49,6 +49,8 @@ background: linear-gradient(to right, #BFE6BA, #D3959B);  */
     color: #fff;
     border: none;
     font-weight: bolder;
+    border-radius: 10px;
+    border-bottom: solid 4px whitesmoke;
     padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
@@ -85,15 +87,14 @@ background: linear-gradient(to right, #BFE6BA, #D3959B);  */
 
 .card::after {
   content: "Add to Queue⤴";
-  /* gap: 10rem; */
   padding-top: 1.25em;
   padding-left: 1.25em;
   position: absolute;
   left: 0;
-  bottom: -60px;
+  bottom: -30px;
   background: #00AC7C;
   color: #fff;
-  height: 2.5em;
+  height: 1.9em;
   width: 90%;
   transition: all 60ms;
   font-weight: 600;
@@ -136,6 +137,7 @@ background: linear-gradient(to right, #BFE6BA, #D3959B);  */
 
 .text {
   max-width: 55px;
+  text-align: center;
   font-weight: bolder;
 }
 
