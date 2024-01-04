@@ -3,7 +3,7 @@
     {
       "id": 2,
       "username": "Hey Prabhu",
-      "password": "1234"
+      "password": "123"
     },
     {
       "id": 3,
@@ -11,9 +11,9 @@
       "password": 12345
     },
     {
-      "username": "Hare Ram",
-      "password": "123456",
-      "id": 4
+      "username": "Philips",
+      "password": "97654321",
+      "id": 5
     }
   ],
   "products": [
