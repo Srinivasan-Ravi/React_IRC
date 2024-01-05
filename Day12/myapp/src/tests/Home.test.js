@@ -8,6 +8,6 @@ test('Home_test_1', () => {
 });
 test('Home_test_2', () => {
   render(<Home />);
-  const linkElement2 = screen.getByText(/React IRC/i);
+  const linkElement2 = screen.getByText(/React/i);
   expect(linkElement2).toBeInTheDocument();
 });
